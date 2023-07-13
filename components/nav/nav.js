@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import DAJLogo from "../../assets/DajLogo3.png";
+import Image from "next/image";
 
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
@@ -11,9 +13,10 @@ export default function Home() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              {/* TODO: Add DAJ logo here */}
               <a href="/">
-                <h2 className="text-2xl font-bold text-white">DA-JS</h2>
+                <div className="frame">
+                  <Image src={DAJLogo} alt="DAJ logo" height="60" />
+                </div>
               </a>
               <div className="md:hidden">
                 <button
