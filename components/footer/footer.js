@@ -2,15 +2,21 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center w-full p-5 py-20 mx-auto text-white bg-dark-gray h-fit sm:justify-start">
-      <div className="flex items-center sm:float-none">
-        <div className="flex flex-row items-center mr-5 bg-blue-200 w-fit h-fit">
-        <Link href="/">HOME</Link>
+    <div className="w-full bg-blue-400">
+      <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+        <li className="text-white">
+          <Link href="/">HOME</Link>
+        </li>
+        <li className="text-white">
           <Link href="/about">ABOUT</Link>
+        </li>
+        <li className="text-white">
           <Link href="/projects">PROJECTS</Link>
+        </li>
+        <li className="text-white">
           <Link href="/contact">CONTACT</Link>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 };
