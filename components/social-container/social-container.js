@@ -20,7 +20,7 @@ const SocialContainer = () => {
               <FaFacebookF />
             </Link>
           </li>
-          <li className="px-2 m-2 text-white">
+          <li className="px-2 m-2 text-white bg-red-300">
             <Link
               href="https://www.linkedin.com/in/daniel-atoche-juarez-7272a3233/"
               rel="noopener noreferrer"
