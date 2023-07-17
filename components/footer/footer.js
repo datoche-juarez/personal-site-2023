@@ -1,9 +1,10 @@
 import Link from "next/link";
 import dayjs from "dayjs";
+import SocialContainer from "../social-container/social-container";
 
 const Footer = () => {
   return (
-    <div className="flex flex-row px-4 bg-dark-gray">
+    <div className="flex flex-row h-40 px-4 bg-dark-gray">
       <div className="self-center w-full p-2 bg-orange-800">
         <div className="bg-blue-400 ">
           <ul className="flex flex-row justify-start">
@@ -27,8 +28,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-full h-20 bg-green-500">
-        <p>Insert logo here</p>
+      <div className="flex flex-col items-center self-center justify-center w-full h-20 bg-green-500 border-4 border-purple-600">
+        <SocialContainer />
       </div>
     </div>
   );
