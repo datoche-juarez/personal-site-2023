@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div>
             <div
-              className={`flex flex-col text-center justify-self-center items-center border-2 border-yellow-800 py-2 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex flex-col text-center justify-self-center items-center border-2 border-yellow-800 py-2 mt-8 md:block md:mt-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
