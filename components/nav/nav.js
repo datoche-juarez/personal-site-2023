@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <div>
       <nav className="w-full bg-dark-gray-800">
-        <div className="justify-between px-4 mx-auto border border-purple-500 lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="justify-between px-4 mx-4 border border-purple-500 lg:max-w-full md:items-center md:flex md:px-2">
           <div>
             <div className="flex items-center justify-between py-2 border border-green-600 md:py-5 md:block">
               <a href="/">
-                <div className="frame">
+                <div className="my-2 frame">
                   <Image src={DAJLogo} alt="DAJ logo" height="60" />
                 </div>
               </a>
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div>
             <div
-              className={`flex flex-col text-center justify-self-center items-center border-2 border-yellow-800 py-2 mt-8 md:block md:mt-0 ${
+              className={`flex flex-col text-center justify-self-center items-center border-2 border-yellow-800 py-3 md:block md:mt-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
