@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div>
       <nav className="w-full bg-dark-gray-800">
-        <div className="justify-between mx-4 border border-purple-500 lg:max-w-full md:items-center md:flex">
+        <div className="justify-between mx-4 lg:max-w-full md:items-center md:flex">
           <div>
-            <div className="flex items-center justify-between py-2 border border-green-600 md:py-3 md:block">
+            <div className="flex items-center justify-between py-2 md:py-3 md:block">
               <a href="/">
                 <div className="my-2">
                   <Image src={DAJLogo} alt="DAJ logo" height="60" />
@@ -20,13 +20,13 @@ export default function Home() {
               </a>
               <div className="md:hidden">
                 <button
-                  className="p-2 text-gray-700 border border-yellow-600 rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-2 text-gray-700 rounded-md outline-none focus:border-dark-gray-500 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="w-6 h-6 text-dark-gray-500"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -39,7 +39,7 @@ export default function Home() {
                   ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="w-6 h-6 text-dark-gray-500"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div>
             <div
-              className={`flex flex-col text-center justify-self-center items-center border-2 border-yellow-800 py-3 md:block md:mt-0 ${
+              className={`flex flex-col text-center justify-self-center items-center py-3 md:block md:mt-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
