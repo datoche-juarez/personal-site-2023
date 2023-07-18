@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div>
       <nav className="w-full bg-dark-gray-800">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="justify-between px-4 mx-auto border border-purple-500 lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between py-2 border border-green-600 md:py-5 md:block">
               <a href="/">
                 <div className="frame">
                   <Image src={DAJLogo} alt="DAJ logo" height="60" />
@@ -20,7 +20,7 @@ export default function Home() {
               </a>
               <div className="md:hidden">
                 <button
-                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-2 text-gray-700 border border-yellow-600 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex flex-col text-center justify-self-center items-center border-2 border-yellow-800 py-2 mt-8 md:block md:pb-0 md:mt-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
