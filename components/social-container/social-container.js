@@ -9,8 +9,9 @@ import {
 const SocialContainer = () => {
   return (
     <div className="social-container">
-      <div className="bg-dark-gray-50 ">
-        <ul className="flex flex-row justify-start">
+      <div className="bg-dark-gray-50">
+        {/* <ul className="flex flex-col justify-start xs:flex-row xs:justify-start"> */}
+        <ul className="flex flex-wrap justify-center xs:flex-row xs:justify-center">
           <li className="flex items-center justify-center w-12 h-12 px-2 m-2 text-3xl text-white rounded-full shadow-xl drop-shadow-xl bg-facebook-blue hover:bg-facebook-blue-400">
             <Link
               href="https://www.facebook.com/daniel.atochejuarez"
