@@ -1,7 +1,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "../components/footer/footer.js";
-import Nav from "@/components/nav/nav";
+import Nav from "../components/nav/nav";
+import HeroBanner from "../components/hero-banner/hero-banner.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       >
         <div className="flex-1">
           <Nav />
+          <HeroBanner />
           {children}
         </div>
         <Footer className="mt-auto" />
