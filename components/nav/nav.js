@@ -63,16 +63,16 @@ export default function Home() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white">
+                <li className="font-light text-white hover:text-dark-gray-300">
                   <Link href="/">HOME</Link>
                 </li>
-                <li className="text-white">
+                <li className="font-light text-white hover:text-dark-gray-300">
                   <Link href="/about">ABOUT</Link>
                 </li>
-                <li className="text-white">
+                <li className="font-light text-white hover:text-dark-gray-300">
                   <Link href="/projects">PROJECTS</Link>
                 </li>
-                <li className="text-white">
+                <li className="font-light text-white hover:text-dark-gray-300">
                   <Link href="/contact">CONTACT</Link>
                 </li>
               </ul>

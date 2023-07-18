@@ -8,22 +8,22 @@ const Footer = () => {
       <div className="self-center w-full p-2">
         <div className="flex flex-col items-center p-2 md:items-start">
           <ul className="flex flex-col justify-center text-center xs:flex-row xs:justify-start xs:text-left">
-            <li className="px-1 text-sm text-white sm:text-base sm:px-2">
+            <li className="px-1 text-sm font-light text-white hover:text-dark-gray-300 sm:text-base sm:px-2">
               <Link href="/">HOME</Link>
             </li>
-            <li className="px-1 text-sm text-white sm:px-2 sm:text-base">
+            <li className="px-1 text-sm font-light text-white hover:text-dark-gray-300 sm:px-2 sm:text-base">
               <Link href="/about">ABOUT</Link>
             </li>
-            <li className="px-1 text-sm text-white sm:px-2 sm:text-base">
+            <li className="px-1 text-sm font-light text-white hover:text-dark-gray-300 sm:px-2 sm:text-base">
               <Link href="/projects">PROJECTS</Link>
             </li>
-            <li className="px-1 text-sm text-white sm:px-2 sm:text-base">
+            <li className="px-1 text-sm font-light text-white hover:text-dark-gray-300 sm:px-2 sm:text-base">
               <Link href="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>
         <div className="flex flex-col items-center justify-center h-auto min-h-full p-2 md:items-start">
-          <p className="text-sm text-center text-dark-gray-500 xs:text-left">
+          <p className="text-sm font-light text-center text-dark-gray-500 xs:text-left">
             © Daniel Atoche-Juarez {dayjs().year()}
           </p>
         </div>
