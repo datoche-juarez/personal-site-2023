@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-xl">Home page placeholder...</h1>
+      <div className="m-4">
+        <h1 className="text-xl">Home page placeholder...</h1>
+      </div>
     </>
   );
 }
