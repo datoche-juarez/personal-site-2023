@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <div>
       <nav className="w-full bg-dark-gray-800">
-        <div className="justify-between px-4 mx-4 border border-purple-500 lg:max-w-full md:items-center md:flex md:px-2">
+        <div className="justify-between mx-4 border border-purple-500 lg:max-w-full md:items-center md:flex">
           <div>
-            <div className="flex items-center justify-between py-2 border border-green-600 md:py-5 md:block">
+            <div className="flex items-center justify-between py-2 border border-green-600 md:py-3 md:block">
               <a href="/">
-                <div className="my-2 frame">
+                <div className="my-2">
                   <Image src={DAJLogo} alt="DAJ logo" height="60" />
                 </div>
               </a>
