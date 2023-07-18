@@ -28,7 +28,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center self-center justify-center w-full h-20 bg-green-500 border-4 border-purple-600">
+      <div className="flex flex-col items-end self-center justify-center w-full h-20 bg-green-500 border-4 border-purple-600">
         <SocialContainer />
       </div>
     </div>
