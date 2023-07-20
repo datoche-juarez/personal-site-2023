@@ -9,7 +9,7 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full bg-dark-gray-800">
+      <nav className="w-full mb-0 bg-dark-gray-800">
         <div className="justify-between mx-4 lg:max-w-full md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-2 md:py-3 md:block">
