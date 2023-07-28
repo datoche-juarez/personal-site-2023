@@ -4,7 +4,7 @@ import SocialContainer from "../social-container/social-container";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col-reverse max-w-full px-4 py-10 max-h-fit min-h-fit bg-dark-gray md:flex-row">
+    <div className="flex flex-col-reverse max-w-full px-4 py-10 mt-20 h-200 bg-dark-gray md:flex-row">
       <div className="self-center w-full p-2">
         <div className="flex flex-col items-center p-2 md:items-start">
           <ul className="flex flex-col justify-center text-center xs:flex-row xs:justify-start xs:text-left">
