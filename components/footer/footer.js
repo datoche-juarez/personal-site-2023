@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center justify-center h-auto min-h-full p-2 md:items-start">
           <p className="text-sm font-light text-center text-dark-gray-500 xs:text-left">
-            © Daniel Atoche-Juarezzz {dayjs().year()}
+            © Daniel Atoche-Juarez {dayjs().year()}
           </p>
         </div>
       </div>
