@@ -1,21 +1,3 @@
-// import Link from "next/link";
-
-// export default function About() {
-//   return (
-//     <>
-//       <div className="m-4">
-//         <h1 className="text-xl">
-//           I thrive on turning ideas into reality through coding. With a solid
-//           foundation in Computer Information Systems and a creative touch from
-//           my Liberal Arts background, I&rsquo;m committed to developing elegant
-//           and functional software solutions that solve real-world problems.
-//         </h1>
-//         <Link href="/">Back</Link>
-//       </div>
-//     </>
-//   );
-// }
-
 import Link from "next/link";
 
 export default function About() {
